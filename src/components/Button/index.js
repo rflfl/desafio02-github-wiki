@@ -1,8 +1,8 @@
 import React from "react";
 import { ButtonContainer } from "./styles";
-function Button() {
+function Button({onClick}) {
     return (
-        <ButtonContainer>
+        <ButtonContainer onClick={onClick}>
             Buscar
         </ButtonContainer>
     )
